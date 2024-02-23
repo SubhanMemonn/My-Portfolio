@@ -8,9 +8,10 @@ const Home = () => {
         <div className="flex flex-col gap-6">
           <h1 className=" font-bold text-3xl ">MERN Stack Developer 👋</h1>
           <p>
-            Hi, i'm Subhan Saleem. A MERN stack developer oriented and I am
-            currently in second semester of ACCP (Aptech Certificate Computer
-            Professional) program to improve my skills in a software career.{" "}
+            Hi, i'm Subhan Saleem. A MERN stack developer with one year of
+            experience as a Node.js developer at Progatix and currently doing
+            ACCP (Aptech Certificate Computer Professional) program to improve
+            my skills in a software career.{" "}
           </p>
           <div className="flex gap-2 text-2xl">
             <a
