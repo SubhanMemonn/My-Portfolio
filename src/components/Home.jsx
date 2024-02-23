@@ -42,10 +42,10 @@ const Home = () => {
         <div className="font-bold sm:text-lg whitespace-nowrap text-center text-2xl">
           Tech Stack
         </div>
-        <div className="bg-gray-700 dark:bg-slate-300 font-thin ml-5 text-[4px] sm:text-sm">
+        <div className="bg-gray-700 dark:bg-slate-300 font-thin text-[4px] sm:text-sm">
           |
         </div>
-        <div className="ml-10 flex gap-6 sm:gap-12">
+        <div className="flex gap-6 sm:gap-12 mx-auto">
           <span className="h-10 w-10">
             <img
               src="./html5 (1).png"
