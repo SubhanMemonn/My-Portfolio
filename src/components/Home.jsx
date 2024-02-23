@@ -29,7 +29,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-[50%] overflow-hidden w-full h-56">
+        <div className="rounded-[50%] overflow-hidden w-full sm:h-56 h-full">
           <img
             src="./PSX_20240223_010423.jpg"
             alt="me"
@@ -45,7 +45,7 @@ const Home = () => {
         <div className="bg-gray-700 dark:bg-slate-300 font-thin ml-5 text-[4px] sm:text-sm">
           |
         </div>
-        <div className="ml-10 flex gap-12">
+        <div className="ml-10 flex gap-6 sm:gap-12">
           <span className="h-10 w-10">
             <img
               src="./html5 (1).png"
@@ -55,7 +55,7 @@ const Home = () => {
           </span>
           <span className="h-10 w-10">
             <img
-              src="./css.jpg"
+              src="./css.png"
               alt="CSS"
               className="w-full h-full object-fit"
             />
