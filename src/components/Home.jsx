@@ -3,8 +3,8 @@ import { BsGithub } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 const Home = () => {
   return (
-    <>
-      <div className="w-full max-w-3xl mx-auto flex flex-col sm:flex-row sm::items-center p-3 sm:p-2 gap-8 mt-10">
+    <div className="w-full h-[80vh] flex flex-col justify-center my-10">
+      <div className="w-full max-w-3xl mx-auto flex flex-col sm:flex-row sm:items-center p-3 sm:p-2 gap-8">
         <div className="flex flex-col gap-6">
           <h1 className=" font-bold text-3xl ">MERN Stack Developer 👋</h1>
           <p>
@@ -30,7 +30,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-[50%] overflow-hidden w-full sm:h-56 h-full">
+        <div className="rounded-[50%] overflow-hidden w-[82%] sm:h-56 h-72 mx-auto">
           <img
             src="./PSX_20240223_010423.jpg"
             alt="me"
@@ -87,7 +87,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
