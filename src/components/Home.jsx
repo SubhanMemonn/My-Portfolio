@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 const Home = () => {
   return (
-    <div className="w-full h-[80vh] flex flex-col justify-center my-10">
+    <div className="w-full sm:h-[80vh] flex flex-col justify-center sm:my-10 h-screen">
       <div className="w-full max-w-3xl mx-auto flex flex-col sm:flex-row sm:items-center p-3 sm:p-2 gap-8">
         <div className="flex flex-col gap-6">
           <h1 className=" font-bold text-3xl ">MERN Stack Developer 👋</h1>
