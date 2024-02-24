@@ -23,7 +23,7 @@ const Contact = () => {
         setMsg("");
       }
     } catch (error) {
-      toast.error(error.message);
+      toast.error("This is a demo");
     } finally {
       setLoading(false);
     }
