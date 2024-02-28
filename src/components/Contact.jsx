@@ -1,32 +1,18 @@
 import { useState } from "react";
-import axios from "axios";
 import toast from "react-hot-toast";
 const Contact = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
-  const [loading, setLoading] = useState(false);
+
   const submitHandle = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    try {
-      const { data } = await axios.post(
-        "/contact-me",
-        { fullName, email, msg },
-        { headers: { "Content-Type": "application/json" } }
-      );
-      console.log(data);
-      if (data) {
-        toast.success(data);
-        setEmail("");
-        setFullName("");
-        setMsg("");
-      }
-    } catch (error) {
-      toast.error("This is a demo");
-    } finally {
-      setLoading(false);
-    }
+
+    setEmail("");
+    setFullName("");
+    setMsg("");
+
+    toast.error("This is a demo");
   };
   return (
     <div className="w-full max-w-3xl flex flex-col gap-8 mx-auto py-8 mt-20 px-3">
@@ -56,16 +42,8 @@ const Contact = () => {
           onChange={(e) => setMsg(e.target.value)}
           required
         />
-        <button
-          type="submit"
-          className="btn btn-active btn-neutral"
-          disabled={loading}
-        >
-          {loading ? (
-            <span className="loading loading-spinner"></span>
-          ) : (
-            "Submit"
-          )}
+        <button type="submit" className="btn btn-active btn-neutral">
+          Submit
         </button>
       </form>
     </div>

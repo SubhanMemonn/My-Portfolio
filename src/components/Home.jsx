@@ -30,7 +30,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-[50%] overflow-hidden w-[82%] sm:h-56 h-72 mx-auto">
+        <div className="rounded-[50%] overflow-hidden w-[80%] sm:h-56 h-72 mx-auto">
           <img
             src="./PSX_20240223_010423.jpg"
             alt="me"
@@ -49,28 +49,23 @@ const Home = () => {
         <div className="flex gap-6 sm:gap-12 mx-auto">
           <span className="h-10 w-10">
             <img
-              src="./html5 (1).png"
-              alt="HTML"
+              src="./react.png"
+              alt="REACT.js"
               className="w-full h-full object-fit"
             />
           </span>
+
           <span className="h-10 w-10">
             <img
-              src="./css.png"
-              alt="CSS"
+              src="./mongo_db.png"
+              alt="mongodb"
               className="w-full h-full object-fit"
             />
           </span>
           <span className="h-10 w-10">
             <img src="./js.png" alt="JS" className="w-full h-full object-fit" />
           </span>
-          <span className="h-10 w-10">
-            <img
-              src="./react.png"
-              alt="REACT.js"
-              className="w-full h-full object-fit"
-            />
-          </span>
+
           <span className="h-10 w-10">
             <img
               src="./nodejs.png"
@@ -82,6 +77,13 @@ const Home = () => {
             <img
               src="./express.png"
               alt="Express js"
+              className="w-full h-full object-fit"
+            />
+          </span>
+          <span className="h-10 w-10">
+            <img
+              src="./socket-io.png"
+              alt="socket.io"
               className="w-full h-full object-fit"
             />
           </span>
