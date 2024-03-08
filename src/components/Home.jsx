@@ -82,6 +82,13 @@ const Home = () => {
           </span>
           <span className="h-10 w-10">
             <img
+              src="./tailwindcss.png"
+              alt="tailwind"
+              className="w-full h-full object-fit"
+            />
+          </span>
+          <span className="h-10 w-10">
+            <img
               src="./socket-io.png"
               alt="socket.io"
               className="w-full h-full object-fit"

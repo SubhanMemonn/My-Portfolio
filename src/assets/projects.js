@@ -15,6 +15,13 @@ export const mern = [
         description: `ThreadHub is a social platform built on the MERN (MongoDB, Express.js, React, Node.js) stack with the added styling power of Tailwind CSS. It provides users with the ability to create threads, post comments, like posts, and connect with each other through a simple and intuitive interface.`,
         gitLink: "https://github.com/SubhanMemonn/Threads",
         liveLink: "",
+    },
+    {
+        title: "My Blog",
+        video: "./myblog.mp4",
+        description: `MERN Blog is a full-stack blogging platform that leverages the MongoDB, Express.js, React, Tailwind CSS and Node.js (MERN) stack. This platform provides bloggers with a seamless and interactive experience, offering features such as efficient content management, real-time updates, and an intuitive user interface.`,
+        gitLink: "https://github.com/SubhanMemonn/mern-blog",
+        liveLink: "",
     }
 ]
 
