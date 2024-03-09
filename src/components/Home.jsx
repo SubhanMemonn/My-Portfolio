@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 const Home = () => {
   return (
-    <div className="w-full sm:h-[80vh] flex flex-col justify-center sm:my-10 h-screen">
+    <div className="w-full sm:h-[80vh] flex flex-col justify-center sm:my-10 min-h-screen">
       <div className="w-full max-w-3xl mx-auto flex flex-col sm:flex-row sm:items-center p-3 sm:p-2 gap-8">
         <div className="flex flex-col gap-6">
           <h1 className=" font-bold text-3xl ">MERN Stack Developer 👋</h1>
@@ -30,7 +30,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-[50%] overflow-hidden w-[80%] sm:h-56 h-72 mx-auto">
+        <div className="rounded-[50%] overflow-hidden w-[65%] sm:h-56 sm:w-[90%] h-[18rem] mx-auto">
           <img
             src="./PSX_20240223_010423.jpg"
             alt="me"
@@ -39,14 +39,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" flex mt-11 md:items-center p-3 sm:p-2 w-full max-w-3xl mx-auto flex-col sm:flex-row gap-3">
+      <div className=" flex my-8 sm:items-center p-3 sm:p-2 w-full max-w-3xl mx-auto flex-col sm:flex-row gap-3">
         <div className="font-bold sm:text-lg whitespace-nowrap text-center text-2xl">
           Tech Stack
         </div>
         <div className="bg-gray-700 dark:bg-slate-300 font-thin text-[4px] sm:text-sm">
           |
         </div>
-        <div className="flex gap-6 sm:gap-12 mx-auto">
+        <div className="flex gap-3 sm:gap-8 sm:mx-auto justify-evenly">
           <span className="h-10 w-10">
             <img
               src="./react.png"
